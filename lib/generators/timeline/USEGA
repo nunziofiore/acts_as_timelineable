@@ -1,0 +1,6 @@
+Description:
+    Copies timeline.rb to app/models/.
+    Copies create_timeline.rb to db/migrate
+
+Examples:
+    `rails generate timeline`

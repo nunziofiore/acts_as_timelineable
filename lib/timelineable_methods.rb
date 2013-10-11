@@ -58,6 +58,7 @@ module Laboop
         end
       end
     end
+  end
 end
 
 ActiveRecord::Base.send(:include, Laboop::Acts::Timelineable)

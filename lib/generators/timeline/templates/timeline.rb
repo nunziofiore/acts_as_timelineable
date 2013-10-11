@@ -3,6 +3,7 @@ class Timeline < ActiveRecord::Base
   include ActsAsTimelineable::Timeline
 
   belongs_to :timelineable, :polymorphic => true
+  belongs_to :timelined, :polymorphic => true
 
   default_scope -> { order('created_at ASC') }
 
